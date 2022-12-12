@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link da sua instalção Conecteup que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link da sua instalção FireZAP que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Conecteup, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador FireZAP, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar Conecteup\n"
-  printf "   [1] Atualizar Conecteup\n"
-  printf "   [2] Deletar Conecteup\n"
-  printf "   [3] Bloquear Conecteup\n"
-  printf "   [4] Desbloquear Conecteup\n"
-  printf "   [5] Alter. dominio Conecteup\n"
+  printf "   [0] Instalar FireZAP\n"
+  printf "   [1] Atualizar FireZAP\n"
+  printf "   [2] Deletar FireZAP\n"
+  printf "   [3] Bloquear FireZAP\n"
+  printf "   [4] Desbloquear FireZAP\n"
+  printf "   [5] Alter. dominio FireZAP\n"
   printf "\n"
   read -p "> " option
 
